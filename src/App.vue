@@ -1,15 +1,29 @@
 <script setup>
+async function doAThing() {
+    const result = await requestDATA();
+    console.log(result);
+}
 </script>
 
 <template>
 <nav>
-    <h1>This is Harmonize</h1>
-    <router-link to="/About">About</router-link>
-    <router-link to="/Playlist"></router-link>
-    <RouterLink to="/"></RouterLink>
+    <h1>Harmonize</h1>
+    <router-link to="/">Home</router-link> |
+    <router-link to="/SignUp">Sign Up</router-link> |
+    <router-link to="/Playlist">Playlist</router-link> |
+    <router-link to="/Liked Songs">Liked Songs</router-link> |
+<button @click=""></button>
 </nav>
 <router-view />
-</template>
+
+ </template>
 
 <style>
+body {
+    background-color: #03373b;
+text-align: center;
+}
+body {
+   
+}
 </style>
