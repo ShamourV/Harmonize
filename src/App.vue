@@ -20,7 +20,7 @@ async function doAThing() {
 
 <style>
 body {
-    background-color: #03373b;
+    background-color: #007f8e;
 text-align: center;
 }
 body {
