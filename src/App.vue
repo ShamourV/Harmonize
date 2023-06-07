@@ -23,7 +23,4 @@ body {
     background-color: #007f8e;
 text-align: center;
 }
-body {
-   
-}
 </style>
