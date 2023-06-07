@@ -1,3 +1,6 @@
 <template>
-   <input Sign up>
+   <function>
+      
+   <button @click=""></button>
+   </function>
 </template>
